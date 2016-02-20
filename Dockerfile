@@ -51,3 +51,7 @@ RUN set -x \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& rm -rf /var/lib/mongodb \
 	&& mv /etc/mongod.conf /etc/mongod.conf.orig
+
+#docker login
+#docker build -t scaamanho/mongo32 .
+#docker push scaamanho/mongo32
